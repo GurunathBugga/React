@@ -1,0 +1,21 @@
+.welcome-container {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.welcome-info {
+  font-size: 16px;
+  color: #666;
+  margin: 5px 0;
+}

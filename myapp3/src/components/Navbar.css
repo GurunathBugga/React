@@ -1,0 +1,124 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 50px;
+    background: linear-gradient(to right, #fa4a4a, #6b47ff);
+    color: #fff;
+    transition: background 0.3s ease; 
+  } 
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    font-weight: bold;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease, transform 0.3s ease; 
+    margin: 20px;
+    display: inline-block; 
+    
+  }
+  
+  .navbar-links a:hover {
+    color: #090800; 
+    font-size: 18px;
+    transition: all 0.6s ease; 
+    transform: scale(1.1);
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-right input {
+    margin-right: 10px;
+    padding: 5px;
+    height: 36px;
+    width: 200px;
+    margin-right: 40px;
+    border-radius: 9px;
+    border: none;
+  }
+  
+  .navbar-right i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #fff;
+    transition: font-size 0.3s ease, color 0.3s ease; 
+  }
+  
+  .navbar-right i:hover {
+    font-size: 24px; 
+    color: #050400;
+  }
+  
+  .navbar-language-selector {
+    margin-right: 10px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }
+  
+  .navbar-language-selector:hover {
+    background-color: #555;
+    color: #ffd700; 
+  }
+  
+  
+  
+  .navbar-right select {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+  }
+  
+  .navbar-right select:hover {
+    background-color: #555; /* Change background on hover */
+    color: #ffd700; /* Change text color on hover */
+  }
+  
+  .navbar input::placeholder {
+    color: #aaa;
+  }
+  
+  .navbar input:focus {
+    outline: none;
+    border: 1px solid #ffd700; /* Highlight on focus */
+    background-color: #444;
+  }
+  .logog{
+    
+    color: white;
+    margin: 20px 20px;
+    text-align: center;
+    text-decoration: #231b04;
+    
+    border-radius: 50%;
+    margin-left: 70px;
+    height: 50px;
+    width: 50px;
+
+  }

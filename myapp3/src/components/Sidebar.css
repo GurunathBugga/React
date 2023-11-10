@@ -1,0 +1,85 @@
+.sidebar {
+    background: linear-gradient(to bottom, #fa6a35, #506cf7);
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    transition: left 0.3s;
+    text-align: center;
+    font-family: Sofia, cursive;
+    text-shadow:1px 1px 0 #444
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
+  
+  .toggle-button {
+   
+    border: none;
+    color: #fff;
+    padding-left: 220px;
+    cursor: pointer;
+    height: 73px;
+    margin-left: 40px;
+    background: transparent;
+    font-size: 26px;
+  }
+  
+  .sidebar-menu {
+    list-style: none;
+    padding: 0;
+    
+  }
+  
+  .sidebar-menu li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    padding-right: 40px;
+  }
+  
+  .sidebar-menu a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    
+    color: white;
+  }
+  
+  .sidebar-menu a:hover {
+    background-color: #050000; 
+    border-radius: 20px;
+    font-size: 20px;
+  }
+  
+  
+  .toggle-button:hover{
+    background: transparent;
+  }
+
+
+.image2 {
+  display: inline-block;
+  transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease;
+}
+
+.image2 img {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.image2:hover img {
+  transform: scale(1.2); 
+  transition: transform 0.6s ease, width 0.7s ease, height 0.7s ease;
+}
+
+.image2.clicked img {
+  transform: rotate(45deg); 
+}

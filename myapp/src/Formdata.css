@@ -1,0 +1,35 @@
+.container {
+    text-align: center;
+    margin: 20px auto;
+    height: 300px;
+    width: 400px;
+    padding: 20px; 
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 5px rgba(6, 0, 0, 0.2);
+  }
+  
+ 
+  h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #ffffff;
+  }
+  
+  
+  p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #fffcfc;
+  }
+  
+  
+  p.gender {
+    font-weight: bold;
+    color: #ff5733; 
+  }
+  
+
+  .text-center {
+    text-align: center;
+  }
+  
