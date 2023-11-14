@@ -49,9 +49,10 @@
 .login-button {
   background: #6e50de;
   color: white;
-  width: 90%;
+  width: 100px;
+  height: 30px;
   border: none;
-  margin-right: 10px;
+  
   border-radius: 5px;
   cursor: pointer;
   transition: background 0.3s;

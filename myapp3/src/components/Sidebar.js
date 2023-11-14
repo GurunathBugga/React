@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import './Sidebar.css';
-import profileicon from './images/profileicon.avif';
+// import profileicon from './images/profileicon.avif';
 import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
@@ -19,7 +19,7 @@ const Sidebar = () => {
       </button>
       <ul className="sidebar-menu">
         <div className="image2">
-        <img src={profileicon} alt="Profile" />
+        {/* <img src={profileicon} alt="Profile" /> */}
         </div>
         <ul>
       <li>
