@@ -1,0 +1,170 @@
+/* Register.css */
+
+:root {
+    --white-color: hsl(0, 0%, 100%);
+    --black-color: hsl(0, 0%, 0%);
+    --body-font: "Poppins", sans-serif;
+    --h1-font-size: 1.75rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .813rem;
+    --font-medium: 500;
+  }
+  
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-size: var(--normal-font-size);
+    font-family: var(--body-font);
+    background-image: url("https://img.freepik.com/free-photo/blue-gradient-background-empty-scene-product-presentation-mockup-abstract-background-concept-3d-rendering_56104-2228.jpg?size=626&ext=jpg&uid=R125397196&ga=GA1.1.1483154081.1698314673&semt=ais");
+    background-size: cover;
+    
+  }
+  
+  body {
+    color: var(--white-color);
+  }
+  
+  input,
+  button {
+    border: none;
+    outline: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .register {
+    position: relative;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    
+  }
+  
+  .register__form {
+    position: relative;
+    background-color: hsla(0, 0%, 10%, 0.1);
+    border: 2px solid var(--white-color);
+    margin-inline: 1.5rem;
+    padding: 13px 20px;
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+    width: 400px; 
+    margin: auto; 
+  }
+  
+  .register__title {
+    text-align: center;
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: 2rem;
+    font-weight: bolder;
+  }
+  
+  .register__content,
+  .register__box {
+    display: grid;
+  }
+  
+  .register__content {
+    row-gap: 1.75rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .register__box {
+    align-items: center;
+    column-gap: 0.50rem;
+    border-bottom: 2px solid var(--white-color);
+  }
+  
+  .register__icon,
+  .register__eye {
+    font-size: 1.25rem;
+  }
+  
+  .register__input {
+    width: 100%;
+    padding-block: 0.8rem;
+    background: none;
+    color: var(--white-color);
+    position: relative;
+    z-index: 1;
+    color: white;
+  }
+  
+  .register__input::placeholder {
+    color: #fffefe; 
+  }
+  
+  .register__box-input {
+    position: relative;
+  }
+  
+  .register__eye {
+    position: absolute;
+    right: 0;
+    top: 18px;
+    z-index: 10;
+    cursor: pointer;
+  }
+  
+  .register__box:nth-child(2) input {
+    padding-right: 1.8rem;
+  }
+  
+  .register__button {
+    position: relative;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--white-color);
+  font-weight: var(--font-medium);
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  font-size: large;
+  font-weight: bold;
+  overflow: hidden;
+  }
+  .register__button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0; /* Start from the left */
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, transparent 0%, #2310f2 70%);
+    transition: transform 1.3s; /* Use transform instead of left */
+    transform: scaleX(0); /* Initial scale is 0 */
+    transform-origin: right; /* Set the transform origin to the right */
+  }
+  .register__button:hover::before {
+    transform: scaleX(1); /* Scale to full width on hover */
+    transform-origin: left; /* Change transform origin to the left for the cross direction effect */
+    color: white;
+  }
+
+  .register__login {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .register__login a {
+    color: var(--white-color);
+    font-weight: var(--font-medium);
+  }
+  
+  .register__login a:hover {
+    text-decoration: underline;
+  }
+  

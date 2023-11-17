@@ -1,7 +1,9 @@
 import React from 'react'
 import { BrowserRouter as Router ,Routes,Route } from 'react-router-dom';
 import Login from './components/Login';
-import RegistrationPage from './components/RegistrationPage';
+import Register from './components/Register';
+import ForgotPassword from './components/ForgotPassword';
+
 
 const App = () => {
   return (
@@ -9,7 +11,9 @@ const App = () => {
       <Router>
       <Routes>
       <Route path="/" element={<Login/>}/>
-      <Route path="/RegistrationPage" element={<RegistrationPage/>}/>
+      <Route path="/Register" element={<Register/>}/>
+      <Route path="/ForgotPassword" element={<ForgotPassword/>}/>
+      
       </Routes>
       </Router>
     </div>
